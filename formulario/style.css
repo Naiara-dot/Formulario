@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box   
+}
+
+body{
+    background-color: #242933
+}
+
+.form{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    background: #2E3643;
+    padding: 40px;
+    border: 5px;
+    border-radius: 5px;
+    border-width: medium;
+    border-color: #42475F;
+    font-family: sans-serif;
+}
+
+.header h1{
+    font-size: 27px;
+    margin-bottom: 30px;
+    color: #ABBAE0;
+}
+
+.form-grupo label{
+    font-size: 15px;
+    font-weight: bold;
+    color: #8D97B8;
+    display: block;
+	padding-bottom: 10px;
+}
+
+.form-grupo{
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.form-grupo img {
+    visibility: hidden;
+    position: absolute;
+    top: 35px;
+    right: 10px;
+} 
+
+.form-grupo input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 12px;
+    border: solid transparent;
+    margin-bottom: 10px;
+
+}
+
+.form-grupo small {
+    color: red;
+    position: absolute;
+    visibility: hidden;
+} 
+
+.form button{
+    width: 100%;
+    background: #575DA7;
+    border-radius: 5px;
+    border: 1px;
+    border-color: black;
+    padding: 16px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 15px;
+    font-weight: bold;
+    cursor: pointer
+}
+
+.form-grupo-success input {
+    border: 3px solid greenyellow;
+}
+
+.form-grupo-error input {
+    border: 3px solid red;
+}
+
+.form-grupo-error small {
+    visibility: visible;
+}
+
+.form-grupo-success .icon-success {
+   visibility: visible;
+} 
+
+.form-grupo-error .icon-error {
+    visibility: visible;
+}
+
